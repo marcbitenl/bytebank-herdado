@@ -5,6 +5,7 @@ public class FuncionarioTeste {
 	private String cpf;
 	private double salario;
 	private int tipo = 0; //0 = Funcionario comun, 1 = Gerente, 2 = Diretor
+	private int senha;
 	
 	public FuncionarioTeste() {
 		
