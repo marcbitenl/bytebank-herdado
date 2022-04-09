@@ -8,15 +8,12 @@ public abstract class TesteReferencias {
 		g1.setNome("Marcos");
 		g1.setSalario(5000.0);
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000.0);
-		
+
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(2500.0);
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.resgistra(g1);
-		controle.resgistra(f);
 		controle.resgistra(ev);
 		
 		System.out.println(g1.getBonificacao());
