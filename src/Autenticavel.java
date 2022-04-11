@@ -1,4 +1,9 @@
 
+//contrato Autenticavel
+	//quem assina esse contrato, precisa  implementar
+		// metodo setSenha
+		// metodo setSenha
+
 public abstract interface Autenticavel {
 	
 
